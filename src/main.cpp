@@ -8,7 +8,7 @@
 
 INITIALIZE_EASYLOGGINGPP
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+void framebuffer_size_callback([[maybe_unused]] GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
 const unsigned int SCR_WIDTH = 1536;
 const unsigned int SCR_HEIGHT = 864;
@@ -22,8 +22,8 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
-    if (window == NULL)
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", nullptr, nullptr);
+    if (window == nullptr)
     {
         LOG(ERROR) << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
@@ -63,7 +63,7 @@ int main()
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)nullptr);
     glEnableVertexAttribArray(0);    glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
@@ -92,18 +92,20 @@ int main()
     int work_grp_inv;
     glGetIntegerv(GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS, &work_grp_inv);
     LOG(INFO) << "Maximum local work group invocations - " << work_grp_inv;
+
+    double avgSum = 0;
     while (!glfwWindowShouldClose(window))
     {
 
         double currentTime = glfwGetTime();
         double deltaTime = currentTime - lastTime;
         lastTime = currentTime;
-        if (++frameCount % 20 == 0) {
-            frameCount = 0;
-            LOG(INFO) << "FPS: " << (1 / deltaTime) << "/" << deltaTime << std::endl;
+        avgSum += 1/deltaTime;
+        if (++frameCount % 1000 == 0) {
+            LOG(INFO) << "Current average fps: " << avgSum/(double)frameCount;
         }
         glUseProgram(shaderProgram.PID);
-        if (frameCount % 20 == 5) glDispatchCompute(SCR_WIDTH/32, SCR_HEIGHT/32, 1);
+        glDispatchCompute(SCR_WIDTH/32, SCR_HEIGHT/32, 1);
         glMemoryBarrier(GL_SHADER_IMAGE_ACCESS_BARRIER_BIT);
 
         processInput(window);
