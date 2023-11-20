@@ -94,9 +94,11 @@ int main()
     LOG(INFO) << "Maximum local work group invocations - " << work_grp_inv;
 
     double avgSum = 0;
+    float timeUniform = 0;
+    int timeUniformLocation = glGetUniformLocation(shaderProgram.PID, "time");
+
     while (!glfwWindowShouldClose(window))
     {
-
         double currentTime = glfwGetTime();
         double deltaTime = currentTime - lastTime;
         lastTime = currentTime;
@@ -104,7 +106,11 @@ int main()
         if (++frameCount % 1000 == 0) {
             LOG(INFO) << "Current average fps: " << avgSum/(double)frameCount;
         }
+
+        timeUniform += (float)deltaTime;
+
         glUseProgram(shaderProgram.PID);
+        glUniform1f(timeUniformLocation, timeUniform);
         glDispatchCompute(SCR_WIDTH/32, SCR_HEIGHT/32, 1);
         glMemoryBarrier(GL_SHADER_IMAGE_ACCESS_BARRIER_BIT);
 
