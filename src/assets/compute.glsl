@@ -15,7 +15,7 @@ const vec2 scr_size = vec2(width, height);
 const vec3 centerOfSphere = vec3(0.5f);
 const float grid_size = 0.5f;
 
-float sphere_size = sin(time/2)*4.0f + 8.4f;
+float sphere_size = sin(time/5.0f)*4.0f + 8.4f;
 
 vec3 castRay(vec3 origin, vec3 direction) {
     const float sign_x = direction.x > 0 ? 1 : -1;
