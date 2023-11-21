@@ -7275,3 +7275,359 @@
 2023-11-21 16:48:06,397 INFO [default] Parsing shader file: ./assets/compute.glsl
 2023-11-21 16:48:06,434 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
 2023-11-21 16:48:06,434 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:49:45,175 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:49:45,176 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:49:45,176 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:49:45,197 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:49:45,197 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:50:41,799 INFO [default] Current average fps: 18.3487
+2023-11-21 16:51:38,005 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:51:38,005 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:51:38,005 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:51:38,024 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:51:38,024 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:53:03,805 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:53:03,805 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:53:03,805 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:53:03,829 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:53:03,829 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:53:12,034 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 16:54:30,555 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:54:30,556 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:54:30,556 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:54:30,613 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:54:30,613 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:54:30,635 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 16:55:14,458 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:55:14,459 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:55:14,459 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:55:14,513 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:55:14,513 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:55:14,536 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 16:58:26,847 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:58:26,847 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:58:26,847 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:58:26,894 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:58:26,895 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:58:26,913 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 16:58:49,399 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:58:49,399 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:58:49,399 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:58:49,449 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:58:49,449 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:58:49,469 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 17:00:49,070 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:00:49,070 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:00:49,070 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:00:49,080 ERROR [default] Shader compilation failed (Compute) 0:14(23): error: initializer of const variable `scr_size' must be a constant expression
+
+
+2023-11-21 17:01:23,892 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:01:23,893 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:01:23,893 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:01:23,943 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:01:23,943 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:01:23,964 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 17:01:27,090 INFO [default] Resize event: width - 1706, height - 1009
+2023-11-21 17:01:30,420 INFO [default] Current average fps: 160.076
+2023-11-21 17:02:20,757 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:02:20,757 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:02:20,757 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:02:20,775 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:02:20,775 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:02:22,874 INFO [default] Current average fps: 548.683
+2023-11-21 17:03:10,614 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:03:10,614 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:03:10,614 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:03:10,634 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:03:10,634 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:03:23,570 INFO [default] Resize event: width - 1524, height - 869
+2023-11-21 17:03:23,612 INFO [default] Resize event: width - 1481, height - 877
+2023-11-21 17:03:23,646 INFO [default] Resize event: width - 1428, height - 880
+2023-11-21 17:03:23,700 INFO [default] Resize event: width - 1387, height - 879
+2023-11-21 17:03:23,737 INFO [default] Resize event: width - 1347, height - 879
+2023-11-21 17:03:23,772 INFO [default] Resize event: width - 1315, height - 877
+2023-11-21 17:03:23,825 INFO [default] Resize event: width - 1277, height - 881
+2023-11-21 17:03:23,851 INFO [default] Resize event: width - 1218, height - 885
+2023-11-21 17:03:23,897 INFO [default] Resize event: width - 1157, height - 881
+2023-11-21 17:03:23,943 INFO [default] Resize event: width - 1114, height - 876
+2023-11-21 17:03:24,227 INFO [default] Resize event: width - 1093, height - 879
+2023-11-21 17:03:24,228 INFO [default] Current average fps: 79.7526
+2023-11-21 17:03:24,266 INFO [default] Resize event: width - 1041, height - 903
+2023-11-21 17:03:24,301 INFO [default] Resize event: width - 1014, height - 913
+2023-11-21 17:03:24,341 INFO [default] Resize event: width - 989, height - 923
+2023-11-21 17:03:24,382 INFO [default] Resize event: width - 968, height - 933
+2023-11-21 17:03:24,422 INFO [default] Resize event: width - 945, height - 942
+2023-11-21 17:03:24,457 INFO [default] Resize event: width - 931, height - 946
+2023-11-21 17:03:24,526 INFO [default] Resize event: width - 926, height - 946
+2023-11-21 17:03:37,566 INFO [default] Current average fps: 80.1982
+2023-11-21 17:03:51,820 INFO [default] Current average fps: 78.8371
+2023-11-21 17:04:05,799 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:04:05,799 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:04:05,799 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:04:05,818 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:04:05,818 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:04:09,072 INFO [default] Resize event: width - 1525, height - 867
+2023-11-21 17:04:09,101 INFO [default] Resize event: width - 1487, height - 877
+2023-11-21 17:04:09,131 INFO [default] Resize event: width - 1450, height - 885
+2023-11-21 17:04:09,179 INFO [default] Resize event: width - 1426, height - 887
+2023-11-21 17:04:09,210 INFO [default] Resize event: width - 1401, height - 894
+2023-11-21 17:04:09,259 INFO [default] Resize event: width - 1365, height - 904
+2023-11-21 17:04:09,306 INFO [default] Resize event: width - 1351, height - 906
+2023-11-21 17:04:09,339 INFO [default] Resize event: width - 1348, height - 906
+2023-11-21 17:04:09,403 INFO [default] Resize event: width - 1342, height - 905
+2023-11-21 17:04:09,448 INFO [default] Resize event: width - 1331, height - 901
+2023-11-21 17:04:09,480 INFO [default] Resize event: width - 1320, height - 895
+2023-11-21 17:04:09,511 INFO [default] Resize event: width - 1300, height - 890
+2023-11-21 17:04:09,564 INFO [default] Resize event: width - 1279, height - 880
+2023-11-21 17:04:09,604 INFO [default] Resize event: width - 1264, height - 867
+2023-11-21 17:04:09,640 INFO [default] Resize event: width - 1247, height - 853
+2023-11-21 17:04:09,701 INFO [default] Resize event: width - 1212, height - 837
+2023-11-21 17:04:09,741 INFO [default] Resize event: width - 1171, height - 827
+2023-11-21 17:04:09,780 INFO [default] Resize event: width - 1152, height - 822
+2023-11-21 17:04:09,807 INFO [default] Resize event: width - 1125, height - 809
+2023-11-21 17:04:09,849 INFO [default] Resize event: width - 1110, height - 800
+2023-11-21 17:04:09,891 INFO [default] Resize event: width - 1100, height - 790
+2023-11-21 17:04:09,946 INFO [default] Resize event: width - 1099, height - 787
+2023-11-21 17:04:10,006 INFO [default] Resize event: width - 1098, height - 787
+2023-11-21 17:04:11,428 INFO [default] Resize event: width - 1088, height - 796
+2023-11-21 17:04:11,462 INFO [default] Resize event: width - 1055, height - 822
+2023-11-21 17:04:11,507 INFO [default] Resize event: width - 1028, height - 850
+2023-11-21 17:04:11,554 INFO [default] Resize event: width - 1022, height - 857
+2023-11-21 17:04:11,599 INFO [default] Resize event: width - 1012, height - 879
+2023-11-21 17:04:11,636 INFO [default] Resize event: width - 992, height - 916
+2023-11-21 17:04:11,678 INFO [default] Resize event: width - 965, height - 951
+2023-11-21 17:04:11,718 INFO [default] Resize event: width - 952, height - 969
+2023-11-21 17:04:11,785 INFO [default] Resize event: width - 949, height - 974
+2023-11-21 17:04:11,828 INFO [default] Resize event: width - 926, height - 989
+2023-11-21 17:04:11,863 INFO [default] Resize event: width - 894, height - 1008
+2023-11-21 17:04:11,898 INFO [default] Resize event: width - 869, height - 1019
+2023-11-21 17:04:11,942 INFO [default] Resize event: width - 852, height - 1023
+2023-11-21 17:04:12,000 INFO [default] Resize event: width - 850, height - 1023
+2023-11-21 17:04:12,032 INFO [default] Resize event: width - 849, height - 1023
+2023-11-21 17:04:12,132 INFO [default] Resize event: width - 847, height - 1024
+2023-11-21 17:04:12,172 INFO [default] Resize event: width - 838, height - 1028
+2023-11-21 17:04:12,238 INFO [default] Resize event: width - 837, height - 1028
+2023-11-21 17:04:12,279 INFO [default] Resize event: width - 836, height - 1028
+2023-11-21 17:04:12,327 INFO [default] Resize event: width - 813, height - 1035
+2023-11-21 17:04:12,364 INFO [default] Resize event: width - 792, height - 1035
+2023-11-21 17:04:12,392 INFO [default] Resize event: width - 766, height - 1032
+2023-11-21 17:04:12,431 INFO [default] Resize event: width - 745, height - 1027
+2023-11-21 17:04:12,470 INFO [default] Resize event: width - 730, height - 1022
+2023-11-21 17:04:12,510 INFO [default] Resize event: width - 718, height - 1020
+2023-11-21 17:04:12,552 INFO [default] Resize event: width - 712, height - 1019
+2023-11-21 17:04:12,605 INFO [default] Resize event: width - 710, height - 1019
+2023-11-21 17:04:12,641 INFO [default] Resize event: width - 708, height - 1019
+2023-11-21 17:04:12,684 INFO [default] Resize event: width - 705, height - 1019
+2023-11-21 17:04:12,754 INFO [default] Resize event: width - 703, height - 1019
+2023-11-21 17:04:13,619 INFO [default] Resize event: width - 690, height - 1019
+2023-11-21 17:04:13,656 INFO [default] Resize event: width - 666, height - 1019
+2023-11-21 17:04:13,692 INFO [default] Resize event: width - 642, height - 1017
+2023-11-21 17:04:13,735 INFO [default] Resize event: width - 622, height - 1014
+2023-11-21 17:04:13,779 INFO [default] Resize event: width - 601, height - 1013
+2023-11-21 17:04:13,828 INFO [default] Resize event: width - 591, height - 1013
+2023-11-21 17:04:13,861 INFO [default] Resize event: width - 590, height - 1013
+2023-11-21 17:04:13,907 INFO [default] Resize event: width - 589, height - 1013
+2023-11-21 17:04:13,950 INFO [default] Resize event: width - 572, height - 1019
+2023-11-21 17:04:13,987 INFO [default] Resize event: width - 553, height - 1021
+2023-11-21 17:04:14,027 INFO [default] Resize event: width - 551, height - 1021
+2023-11-21 17:04:14,066 INFO [default] Resize event: width - 548, height - 1021
+2023-11-21 17:04:14,112 INFO [default] Resize event: width - 540, height - 1021
+2023-11-21 17:04:14,141 INFO [default] Resize event: width - 518, height - 1021
+2023-11-21 17:04:14,180 INFO [default] Resize event: width - 501, height - 1019
+2023-11-21 17:04:14,246 INFO [default] Resize event: width - 497, height - 1019
+2023-11-21 17:04:14,454 INFO [default] Resize event: width - 496, height - 1019
+2023-11-21 17:04:14,500 INFO [default] Resize event: width - 495, height - 1019
+2023-11-21 17:04:14,534 INFO [default] Resize event: width - 473, height - 1019
+2023-11-21 17:04:14,584 INFO [default] Resize event: width - 456, height - 1019
+2023-11-21 17:04:14,633 INFO [default] Resize event: width - 450, height - 1018
+2023-11-21 17:04:14,676 INFO [default] Resize event: width - 449, height - 1018
+2023-11-21 17:04:14,887 INFO [default] Current average fps: 139.876
+2023-11-21 17:04:14,891 INFO [default] Resize event: width - 448, height - 1018
+2023-11-21 17:04:14,933 INFO [default] Resize event: width - 432, height - 1017
+2023-11-21 17:04:14,970 INFO [default] Resize event: width - 423, height - 1017
+2023-11-21 17:04:15,510 INFO [default] Resize event: width - 422, height - 1017
+2023-11-21 17:04:15,546 INFO [default] Resize event: width - 424, height - 1013
+2023-11-21 17:04:15,587 INFO [default] Resize event: width - 438, height - 1004
+2023-11-21 17:04:15,630 INFO [default] Resize event: width - 451, height - 996
+2023-11-21 17:04:15,682 INFO [default] Resize event: width - 465, height - 984
+2023-11-21 17:04:15,721 INFO [default] Resize event: width - 470, height - 981
+2023-11-21 17:04:15,768 INFO [default] Resize event: width - 494, height - 961
+2023-11-21 17:04:15,809 INFO [default] Resize event: width - 513, height - 948
+2023-11-21 17:04:15,846 INFO [default] Resize event: width - 544, height - 930
+2023-11-21 17:04:15,887 INFO [default] Resize event: width - 595, height - 900
+2023-11-21 17:04:15,928 INFO [default] Resize event: width - 658, height - 871
+2023-11-21 17:04:15,975 INFO [default] Resize event: width - 747, height - 842
+2023-11-21 17:04:16,012 INFO [default] Resize event: width - 855, height - 804
+2023-11-21 17:04:16,055 INFO [default] Resize event: width - 935, height - 783
+2023-11-21 17:04:16,098 INFO [default] Resize event: width - 981, height - 774
+2023-11-21 17:04:16,141 INFO [default] Resize event: width - 1008, height - 771
+2023-11-21 17:04:16,185 INFO [default] Resize event: width - 1025, height - 769
+2023-11-21 17:04:16,225 INFO [default] Resize event: width - 1049, height - 766
+2023-11-21 17:04:16,267 INFO [default] Resize event: width - 1081, height - 764
+2023-11-21 17:04:16,309 INFO [default] Resize event: width - 1115, height - 762
+2023-11-21 17:04:16,335 INFO [default] Resize event: width - 1146, height - 760
+2023-11-21 17:04:16,392 INFO [default] Resize event: width - 1182, height - 760
+2023-11-21 17:04:16,421 INFO [default] Resize event: width - 1211, height - 761
+2023-11-21 17:04:16,460 INFO [default] Resize event: width - 1240, height - 766
+2023-11-21 17:04:16,500 INFO [default] Resize event: width - 1267, height - 774
+2023-11-21 17:04:16,542 INFO [default] Resize event: width - 1300, height - 783
+2023-11-21 17:04:16,581 INFO [default] Resize event: width - 1333, height - 789
+2023-11-21 17:04:16,626 INFO [default] Resize event: width - 1361, height - 791
+2023-11-21 17:04:16,667 INFO [default] Resize event: width - 1386, height - 793
+2023-11-21 17:04:16,716 INFO [default] Resize event: width - 1394, height - 793
+2023-11-21 17:04:16,806 INFO [default] Resize event: width - 1392, height - 794
+2023-11-21 17:04:16,854 INFO [default] Resize event: width - 1389, height - 794
+2023-11-21 17:04:16,887 INFO [default] Resize event: width - 1388, height - 793
+2023-11-21 17:04:16,928 INFO [default] Resize event: width - 1388, height - 789
+2023-11-21 17:04:16,957 INFO [default] Resize event: width - 1399, height - 772
+2023-11-21 17:04:17,004 INFO [default] Resize event: width - 1408, height - 764
+2023-11-21 17:04:17,047 INFO [default] Resize event: width - 1411, height - 764
+2023-11-21 17:04:17,093 INFO [default] Resize event: width - 1422, height - 777
+2023-11-21 17:04:17,136 INFO [default] Resize event: width - 1433, height - 798
+2023-11-21 17:04:17,170 INFO [default] Resize event: width - 1442, height - 820
+2023-11-21 17:04:17,204 INFO [default] Resize event: width - 1448, height - 837
+2023-11-21 17:04:17,237 INFO [default] Resize event: width - 1455, height - 852
+2023-11-21 17:04:17,283 INFO [default] Resize event: width - 1463, height - 862
+2023-11-21 17:04:17,336 INFO [default] Resize event: width - 1476, height - 875
+2023-11-21 17:04:17,365 INFO [default] Resize event: width - 1490, height - 885
+2023-11-21 17:04:17,412 INFO [default] Resize event: width - 1506, height - 898
+2023-11-21 17:04:17,451 INFO [default] Resize event: width - 1529, height - 915
+2023-11-21 17:04:17,490 INFO [default] Resize event: width - 1538, height - 931
+2023-11-21 17:04:17,532 INFO [default] Resize event: width - 1542, height - 943
+2023-11-21 17:04:17,574 INFO [default] Resize event: width - 1543, height - 950
+2023-11-21 17:04:17,664 INFO [default] Resize event: width - 1541, height - 953
+2023-11-21 17:04:17,696 INFO [default] Resize event: width - 1531, height - 976
+2023-11-21 17:04:17,732 INFO [default] Resize event: width - 1523, height - 998
+2023-11-21 17:04:17,803 INFO [default] Resize event: width - 1522, height - 1004
+2023-11-21 17:04:17,906 INFO [default] Resize event: width - 1522, height - 1005
+2023-11-21 17:04:17,943 INFO [default] Resize event: width - 1508, height - 1022
+2023-11-21 17:04:17,984 INFO [default] Resize event: width - 1498, height - 1038
+2023-11-21 17:04:18,047 INFO [default] Resize event: width - 1494, height - 1046
+2023-11-21 17:04:18,092 INFO [default] Resize event: width - 1494, height - 1048
+2023-11-21 17:04:18,135 INFO [default] Resize event: width - 1487, height - 1063
+2023-11-21 17:04:18,181 INFO [default] Resize event: width - 1480, height - 1077
+2023-11-21 17:04:18,220 INFO [default] Resize event: width - 1476, height - 1084
+2023-11-21 17:04:18,294 INFO [default] Resize event: width - 1476, height - 1086
+2023-11-21 17:04:18,344 INFO [default] Resize event: width - 1476, height - 1087
+2023-11-21 17:04:18,380 INFO [default] Resize event: width - 1467, height - 1101
+2023-11-21 17:04:18,426 INFO [default] Resize event: width - 1465, height - 1108
+2023-11-21 17:04:18,490 INFO [default] Resize event: width - 1465, height - 1109
+2023-11-21 17:04:18,536 INFO [default] Resize event: width - 1465, height - 1110
+2023-11-21 17:04:18,584 INFO [default] Resize event: width - 1465, height - 1111
+2023-11-21 17:04:18,631 INFO [default] Resize event: width - 1465, height - 1117
+2023-11-21 17:04:18,657 INFO [default] Resize event: width - 1466, height - 1120
+2023-11-21 17:04:18,700 INFO [default] Resize event: width - 1469, height - 1124
+2023-11-21 17:04:18,759 INFO [default] Resize event: width - 1476, height - 1127
+2023-11-21 17:04:18,802 INFO [default] Resize event: width - 1480, height - 1132
+2023-11-21 17:04:18,846 INFO [default] Resize event: width - 1480, height - 1135
+2023-11-21 17:04:18,892 INFO [default] Resize event: width - 1480, height - 1136
+2023-11-21 17:04:18,940 INFO [default] Resize event: width - 1480, height - 1137
+2023-11-21 17:04:18,983 INFO [default] Resize event: width - 1481, height - 1143
+2023-11-21 17:04:19,042 INFO [default] Resize event: width - 1481, height - 1150
+2023-11-21 17:04:19,159 INFO [default] Resize event: width - 1481, height - 1151
+2023-11-21 17:04:19,245 INFO [default] Resize event: width - 1481, height - 1152
+2023-11-21 17:04:19,381 INFO [default] Resize event: width - 1482, height - 1154
+2023-11-21 17:04:19,462 INFO [default] Resize event: width - 1482, height - 1155
+2023-11-21 17:04:19,524 INFO [default] Resize event: width - 1482, height - 1156
+2023-11-21 17:04:19,698 INFO [default] Resize event: width - 1482, height - 1155
+2023-11-21 17:04:19,763 INFO [default] Resize event: width - 1482, height - 1153
+2023-11-21 17:04:19,838 INFO [default] Resize event: width - 1482, height - 1152
+2023-11-21 17:04:19,913 INFO [default] Resize event: width - 1482, height - 1151
+2023-11-21 17:04:19,975 INFO [default] Resize event: width - 1482, height - 1150
+2023-11-21 17:04:20,014 INFO [default] Resize event: width - 1483, height - 1147
+2023-11-21 17:04:20,047 INFO [default] Resize event: width - 1481, height - 1137
+2023-11-21 17:04:20,086 INFO [default] Resize event: width - 1475, height - 1116
+2023-11-21 17:04:20,128 INFO [default] Resize event: width - 1470, height - 1094
+2023-11-21 17:04:20,177 INFO [default] Resize event: width - 1465, height - 1075
+2023-11-21 17:04:20,224 INFO [default] Resize event: width - 1458, height - 1051
+2023-11-21 17:04:20,259 INFO [default] Resize event: width - 1450, height - 1017
+2023-11-21 17:04:20,309 INFO [default] Resize event: width - 1445, height - 980
+2023-11-21 17:04:20,348 INFO [default] Resize event: width - 1438, height - 949
+2023-11-21 17:04:20,393 INFO [default] Resize event: width - 1432, height - 929
+2023-11-21 17:04:20,433 INFO [default] Resize event: width - 1422, height - 901
+2023-11-21 17:04:20,476 INFO [default] Resize event: width - 1416, height - 872
+2023-11-21 17:04:20,518 INFO [default] Resize event: width - 1407, height - 839
+2023-11-21 17:04:20,567 INFO [default] Resize event: width - 1401, height - 817
+2023-11-21 17:04:20,601 INFO [default] Resize event: width - 1396, height - 803
+2023-11-21 17:04:20,652 INFO [default] Resize event: width - 1382, height - 783
+2023-11-21 17:04:20,693 INFO [default] Resize event: width - 1373, height - 763
+2023-11-21 17:04:20,727 INFO [default] Resize event: width - 1365, height - 748
+2023-11-21 17:04:20,751 INFO [default] Resize event: width - 1361, height - 733
+2023-11-21 17:04:20,791 INFO [default] Resize event: width - 1350, height - 715
+2023-11-21 17:04:20,838 INFO [default] Resize event: width - 1334, height - 699
+2023-11-21 17:04:20,879 INFO [default] Resize event: width - 1324, height - 685
+2023-11-21 17:04:20,931 INFO [default] Resize event: width - 1317, height - 674
+2023-11-21 17:04:20,969 INFO [default] Resize event: width - 1314, height - 662
+2023-11-21 17:04:21,017 INFO [default] Resize event: width - 1312, height - 655
+2023-11-21 17:04:21,050 INFO [default] Resize event: width - 1311, height - 638
+2023-11-21 17:04:21,084 INFO [default] Resize event: width - 1307, height - 620
+2023-11-21 17:04:21,128 INFO [default] Resize event: width - 1303, height - 600
+2023-11-21 17:04:21,178 INFO [default] Resize event: width - 1301, height - 590
+2023-11-21 17:04:21,220 INFO [default] Resize event: width - 1300, height - 581
+2023-11-21 17:04:21,281 INFO [default] Resize event: width - 1299, height - 578
+2023-11-21 17:04:21,332 INFO [default] Resize event: width - 1299, height - 576
+2023-11-21 17:04:21,368 INFO [default] Resize event: width - 1297, height - 559
+2023-11-21 17:04:21,404 INFO [default] Resize event: width - 1293, height - 547
+2023-11-21 17:04:21,468 INFO [default] Resize event: width - 1292, height - 543
+2023-11-21 17:04:21,516 INFO [default] Resize event: width - 1291, height - 542
+2023-11-21 17:04:21,550 INFO [default] Resize event: width - 1291, height - 541
+2023-11-21 17:04:21,636 INFO [default] Resize event: width - 1290, height - 540
+2023-11-21 17:04:21,675 INFO [default] Resize event: width - 1285, height - 523
+2023-11-21 17:04:21,719 INFO [default] Resize event: width - 1283, height - 515
+2023-11-21 17:04:21,761 INFO [default] Resize event: width - 1283, height - 512
+2023-11-21 17:04:21,797 INFO [default] Resize event: width - 1282, height - 510
+2023-11-21 17:04:21,835 INFO [default] Resize event: width - 1279, height - 505
+2023-11-21 17:04:21,877 INFO [default] Resize event: width - 1278, height - 504
+2023-11-21 17:04:21,915 INFO [default] Resize event: width - 1278, height - 503
+2023-11-21 17:04:22,977 INFO [default] Resize event: width - 1278, height - 504
+2023-11-21 17:04:23,266 INFO [default] Resize event: width - 1278, height - 503
+2023-11-21 17:04:23,300 INFO [default] Resize event: width - 1276, height - 497
+2023-11-21 17:04:23,336 INFO [default] Resize event: width - 1272, height - 490
+2023-11-21 17:04:23,407 INFO [default] Resize event: width - 1270, height - 489
+2023-11-21 17:04:23,820 INFO [default] Current average fps: 152.775
+2023-11-21 17:04:24,261 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 17:06:06,728 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:06:06,728 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:06:06,728 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:06:06,747 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:06:06,747 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:06:35,941 INFO [default] Current average fps: 34.5242
+2023-11-21 17:07:05,073 INFO [default] Current average fps: 34.4425
+2023-11-21 17:07:34,254 INFO [default] Current average fps: 34.3955
+2023-11-21 17:08:03,230 INFO [default] Current average fps: 34.4307
+2023-11-21 17:08:32,269 INFO [default] Current average fps: 34.4372
+2023-11-21 17:13:08,484 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:13:08,485 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:13:08,485 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:13:08,505 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:13:08,505 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:13:37,610 INFO [default] Current average fps: 34.4812
+2023-11-21 17:14:06,741 INFO [default] Current average fps: 34.4207
+2023-11-21 17:14:36,791 INFO [default] Current average fps: 34.1067
+2023-11-21 17:39:19,432 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:39:19,432 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:39:19,432 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:39:19,444 ERROR [default] Shader compilation failed (Compute) 0:73(2): error: no function with name 'negate'
+
+
+2023-11-21 17:39:34,357 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:39:34,358 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:39:34,358 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:39:34,404 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:39:34,404 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:40:12,701 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:40:12,701 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:40:12,701 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:40:12,740 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:40:12,740 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:40:47,560 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:40:47,560 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:40:47,560 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:40:47,598 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:40:47,598 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 17:41:29,053 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 17:41:29,054 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 17:41:29,054 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 17:41:29,095 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 17:41:29,095 INFO [default] Maximum local work group invocations - 1024

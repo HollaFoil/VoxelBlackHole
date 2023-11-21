@@ -64,26 +64,38 @@ vec3 castRay(vec3 origin, vec3 direction) {
     return color;
 }
 
-mat3 calcLookAtMatrix(vec3 origin, vec3 target, float roll) {
-    vec3 rr = vec3(sin(roll), cos(roll), 0.0);
-    vec3 ww = normalize(target - origin);
-    vec3 uu = normalize(cross(ww, rr));
-    vec3 vv = normalize(cross(uu, ww));
+mat4 LookAt(vec3 eye, vec3 at, vec3 up)
+{
+    vec3 zaxis = normalize(at - eye);
+    vec3 xaxis = normalize(cross(zaxis, up));
+    vec3 yaxis = cross(xaxis, zaxis);
 
-    return mat3(uu, vv, ww);
+    zaxis *= -1.0f;
+
+    mat4 viewMatrix = mat4(
+    vec4(xaxis.x, xaxis.y, xaxis.z, -dot(xaxis, eye)),
+    vec4(yaxis.x, yaxis.y, yaxis.z, -dot(yaxis, eye)),
+    vec4(zaxis.x, zaxis.y, zaxis.z, -dot(zaxis, eye)),
+    vec4(0.0f, 0.0f, 0.0f, 1.0f)
+    );
+
+    return viewMatrix;
 }
 
 void main()
 {
-    vec3 origin = vec3 (sin(time/3)*40.0f, sin(time/3)*10.0f, cos(time/3)*40.0f);
+    vec3 origin = vec3 (sin(time/2.5f), sin(time/3.0f), cos(time/2.5f));
+    origin = normalize(origin) * 40.0;
 
     vec2 pixel_coord = vec2(gl_GlobalInvocationID.xy);
     pixel_coord = pixel_coord*2.0f - scr_size;
-    vec3 direction = vec3(pixel_coord, width);
-    direction += 0.00001f;
+    vec3 direction = normalize(vec3(pixel_coord, width));
 
-    mat3 lookAt = calcLookAtMatrix(origin, centerOfSphere, 0);
-    direction = normalize(direction*lookAt);
+    mat4 lookAt = LookAt(origin, vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
+    vec4 dir  = lookAt*vec4(direction, 1.0f);
+    dir /= dir.w;
+    direction = dir.xyz;
+    direction += 0.00001f;
 
     vec3 color = castRay(origin, normalize(direction));
     imageStore(img_output, ivec2(gl_GlobalInvocationID.xy), vec4(color, 1.0));
