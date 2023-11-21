@@ -6663,3 +6663,526 @@
 2023-11-20 23:16:38,695 INFO [default] Maximum local work group invocations - 1024
 2023-11-20 23:16:53,675 INFO [default] Current average fps: 67.5639
 2023-11-20 23:17:09,596 INFO [default] Current average fps: 65.7607
+2023-11-21 00:52:13,656 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 00:52:13,656 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 00:52:13,657 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 00:52:13,682 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 00:52:13,682 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 00:52:28,517 INFO [default] Current average fps: 68.0218
+2023-11-21 00:56:48,058 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 00:56:48,058 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 00:56:48,058 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 00:56:48,079 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 00:56:48,079 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 00:57:02,719 INFO [default] Current average fps: 68.5136
+2023-11-21 00:57:17,344 INFO [default] Current average fps: 68.4783
+2023-11-21 00:57:31,943 INFO [default] Current average fps: 68.5079
+2023-11-21 01:00:35,923 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:00:35,923 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:00:35,923 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:00:35,943 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:00:35,943 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:08:00,278 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:08:00,278 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:08:00,278 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:08:00,298 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:08:00,298 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:08:14,936 INFO [default] Current average fps: 68.6231
+2023-11-21 01:09:02,190 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:09:02,190 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:09:02,190 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:09:02,234 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:09:02,234 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:09:16,540 INFO [default] Current average fps: 70.1704
+2023-11-21 01:09:30,781 INFO [default] Current average fps: 70.1968
+2023-11-21 01:09:44,998 INFO [default] Current average fps: 70.2447
+2023-11-21 01:11:13,412 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:11:13,412 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:11:13,412 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:11:13,449 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:11:13,449 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:11:27,272 INFO [default] Current average fps: 72.7622
+2023-11-21 01:11:40,980 INFO [default] Current average fps: 72.8912
+2023-11-21 01:11:53,429 INFO [default] Resize event: width - 1536, height - 866
+2023-11-21 01:11:53,458 INFO [default] Resize event: width - 1536, height - 882
+2023-11-21 01:11:53,504 INFO [default] Resize event: width - 1536, height - 897
+2023-11-21 01:11:53,552 INFO [default] Resize event: width - 1536, height - 932
+2023-11-21 01:11:53,604 INFO [default] Resize event: width - 1536, height - 971
+2023-11-21 01:11:53,638 INFO [default] Resize event: width - 1536, height - 999
+2023-11-21 01:11:53,689 INFO [default] Resize event: width - 1536, height - 1026
+2023-11-21 01:11:53,723 INFO [default] Resize event: width - 1536, height - 1048
+2023-11-21 01:11:53,776 INFO [default] Resize event: width - 1536, height - 1065
+2023-11-21 01:11:53,812 INFO [default] Resize event: width - 1536, height - 1085
+2023-11-21 01:11:53,848 INFO [default] Resize event: width - 1536, height - 1094
+2023-11-21 01:11:53,885 INFO [default] Resize event: width - 1536, height - 1096
+2023-11-21 01:11:54,917 INFO [default] Current average fps: 72.5751
+2023-11-21 01:12:07,533 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:12:07,533 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:12:07,533 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:12:07,566 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:12:07,566 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:12:12,071 INFO [default] Resize event: width - 1536, height - 881
+2023-11-21 01:12:12,119 INFO [default] Resize event: width - 1536, height - 954
+2023-11-21 01:12:12,150 INFO [default] Resize event: width - 1536, height - 1027
+2023-11-21 01:12:12,185 INFO [default] Resize event: width - 1536, height - 1065
+2023-11-21 01:12:12,235 INFO [default] Resize event: width - 1536, height - 1069
+2023-11-21 01:12:12,353 INFO [default] Resize event: width - 1536, height - 1071
+2023-11-21 01:12:12,403 INFO [default] Resize event: width - 1536, height - 1100
+2023-11-21 01:12:12,437 INFO [default] Resize event: width - 1536, height - 1127
+2023-11-21 01:12:21,961 INFO [default] Current average fps: 69.9562
+2023-11-21 01:13:11,339 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:13:11,339 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:13:11,339 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:13:11,375 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:13:11,375 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:13:28,463 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 01:13:28,463 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 01:13:28,463 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 01:13:28,499 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 01:13:28,499 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 01:13:42,338 INFO [default] Current average fps: 72.6019
+2023-11-21 01:13:56,380 INFO [default] Current average fps: 72.1984
+2023-11-21 01:14:10,740 INFO [default] Current average fps: 71.9584
+2023-11-21 11:48:11,727 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:48:11,727 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:48:11,727 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:48:11,750 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:48:11,750 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:48:25,650 INFO [default] Current average fps: 72.3358
+2023-11-21 11:48:39,366 INFO [default] Current average fps: 72.6565
+2023-11-21 11:48:53,217 INFO [default] Current average fps: 72.6012
+2023-11-21 11:50:34,519 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:50:34,520 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:50:34,520 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:50:34,538 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:50:34,539 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:50:48,375 INFO [default] Current average fps: 72.5026
+2023-11-21 11:51:14,054 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:51:14,055 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:51:14,055 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:51:14,090 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:51:14,090 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:51:22,671 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:51:22,671 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:51:22,671 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:51:22,712 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:51:22,712 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:52:06,614 INFO [default] Current average fps: 22.9846
+2023-11-21 11:52:50,563 INFO [default] Current average fps: 22.8831
+2023-11-21 11:53:41,479 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:53:41,480 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:53:41,480 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:53:41,491 ERROR [default] Shader compilation failed (Compute) 0:14(21): error: syntax error, unexpected FLOATCONSTANT, expecting ',' or ';'
+
+
+2023-11-21 11:53:52,821 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:53:52,821 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:53:52,821 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:53:52,855 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:53:52,855 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:54:10,992 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:54:10,992 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:54:10,992 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:54:11,048 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:54:11,048 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:55:16,483 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:55:16,483 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:55:16,483 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:55:16,515 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:55:16,515 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:55:29,385 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:55:29,385 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:55:29,385 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:55:29,422 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:55:29,422 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:55:46,403 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:55:46,403 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:55:46,403 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:55:46,434 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:55:46,434 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:56:02,312 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:56:02,312 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:56:02,312 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:56:02,343 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:56:02,343 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 11:56:17,957 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 11:56:17,957 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 11:56:17,957 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 11:56:17,990 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 11:56:17,990 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:03:22,302 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:03:22,302 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:03:22,302 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:03:22,314 ERROR [default] Shader compilation failed (Compute) 0:13(35): error: syntax error, unexpected NEW_IDENTIFIER, expecting ')' or ','
+
+
+2023-11-21 12:03:29,940 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:03:29,940 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:03:29,940 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:03:29,971 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:03:29,971 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:04:02,142 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:04:02,143 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:04:02,143 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:04:02,182 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:04:02,183 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:05:16,583 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:05:16,583 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:05:16,583 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:05:16,618 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:05:16,618 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:06:25,485 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:06:25,485 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:06:25,485 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:06:25,519 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:06:25,519 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:06:53,896 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:06:53,896 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:06:53,896 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:06:53,907 ERROR [default] Shader compilation failed (Compute) 0:16(27): error: initializer of const variable `sphere_size' must be a constant expression
+
+
+2023-11-21 12:06:59,709 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:06:59,709 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:06:59,709 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:06:59,740 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:06:59,740 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:07:27,389 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:07:27,389 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:07:27,389 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:07:27,401 ERROR [default] Shader compilation failed (Compute) 0:62(12): error: function `calcLookAtMatrix' return type has qualifiers
+
+
+2023-11-21 12:07:36,472 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:07:36,472 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:07:36,472 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:07:36,483 ERROR [default] Shader compilation failed (Compute) 0:62(61): error: syntax error, unexpected CONST_TOK, expecting ';' or '{'
+
+
+2023-11-21 12:10:28,325 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:10:28,326 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:10:28,326 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:10:28,336 ERROR [default] Shader compilation failed (Compute) 0:83(16): error: no function with name 'calcLookAtMatrix'
+0:84(34): warning: `lookAt' used uninitialized
+
+
+2023-11-21 12:10:37,843 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:10:37,843 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:10:37,843 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:10:37,856 ERROR [default] Shader compilation failed (Compute) 0:83(16): error: no matching function for call to `lookat(vec3, vec3, int)'; candidates are:
+0:83(16): error:    mat4 lookat(vec3, vec3, vec3)
+0:84(34): warning: `lookAt' used uninitialized
+
+
+2023-11-21 12:11:05,559 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:11:05,559 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:11:05,559 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:11:05,592 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:11:05,592 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:11:54,767 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:11:54,767 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:11:54,767 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:11:54,787 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:11:54,787 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:12:20,249 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:12:20,249 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:12:20,249 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:12:20,281 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:12:20,282 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:12:31,923 INFO [default] Resize event: width - 2560, height - 1528
+2023-11-21 12:14:50,697 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:14:50,697 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:14:50,697 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:14:50,728 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:14:50,728 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:15:22,454 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:15:22,454 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:15:22,454 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:15:22,485 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:15:22,485 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:15:29,802 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:15:29,802 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:15:29,802 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:15:29,837 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:15:29,837 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:15:43,839 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:15:43,840 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:15:43,840 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:15:43,871 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:15:43,871 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:16:31,238 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:16:31,238 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:16:31,238 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:16:31,277 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:16:31,277 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:17:19,567 INFO [default] Current average fps: 21.0891
+2023-11-21 12:18:07,117 INFO [default] Current average fps: 21.0603
+2023-11-21 12:18:56,037 INFO [default] Current average fps: 20.8873
+2023-11-21 12:19:33,338 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:19:33,338 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:19:33,338 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:19:33,348 ERROR [default] Shader compilation failed (Compute) 0:14(26): error: syntax error, unexpected NEW_IDENTIFIER, expecting ',' or ';'
+
+
+2023-11-21 12:19:41,366 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:19:41,366 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:19:41,366 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:19:41,405 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:19:41,405 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:51:11,961 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:51:11,961 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:51:11,961 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:51:12,000 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:51:12,000 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:57:47,289 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:57:47,289 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:57:47,289 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:57:47,330 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 12:57:47,330 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 12:58:01,739 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 12:58:01,739 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 12:58:01,739 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 12:58:01,750 ERROR [default] Shader compilation failed (Compute) 0:79(2): error: `directionx' undeclared
+
+
+2023-11-21 13:00:59,093 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:00:59,093 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:00:59,093 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:00:59,135 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:00:59,135 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:01:12,895 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:01:12,895 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:01:12,896 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:01:12,938 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:01:12,938 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:01:57,723 INFO [default] Current average fps: 22.7842
+2023-11-21 13:02:42,606 INFO [default] Current average fps: 22.6142
+2023-11-21 13:02:53,366 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:02:53,366 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:02:53,366 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:02:53,404 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:02:53,404 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:02:55,184 INFO [default] Current average fps: 615.007
+2023-11-21 13:03:08,020 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:03:08,020 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:03:08,020 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:03:08,064 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:03:08,064 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:03:31,401 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:03:31,401 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:03:31,401 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:03:31,443 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:03:31,443 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:04:10,332 INFO [default] Current average fps: 26.2157
+2023-11-21 13:04:47,702 INFO [default] Current average fps: 26.5538
+2023-11-21 13:05:25,636 INFO [default] Current average fps: 26.5482
+2023-11-21 13:06:03,171 INFO [default] Current average fps: 26.5934
+2023-11-21 13:06:40,713 INFO [default] Current average fps: 26.6197
+2023-11-21 13:26:49,304 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:26:49,305 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:26:49,305 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:26:49,321 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:26:49,321 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:28:45,940 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:28:45,941 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:28:45,941 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:28:45,980 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:28:45,980 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:28:57,480 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:28:57,481 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:28:57,481 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:28:57,523 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:28:57,523 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:58:59,974 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:58:59,975 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:58:59,975 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:59:00,017 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:59:00,017 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 13:59:17,738 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 13:59:17,738 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 13:59:17,738 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 13:59:17,779 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 13:59:17,779 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:03:35,122 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:03:35,122 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:03:35,122 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:03:35,168 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:03:35,168 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:03:50,245 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:03:50,246 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:03:50,246 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:03:50,286 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:03:50,286 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:04:10,658 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:04:10,658 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:04:10,658 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:04:10,676 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:04:10,677 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:04:18,309 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:04:18,310 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:04:18,310 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:04:18,353 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:04:18,353 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:04:40,635 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:04:40,635 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:04:40,635 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:04:40,694 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:04:40,694 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:04:47,604 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:04:47,605 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:04:47,605 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:04:47,660 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:04:47,660 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:05:06,577 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:05:06,577 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:05:06,577 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:05:06,622 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:05:06,622 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:05:54,235 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:05:54,235 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:05:54,235 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:05:54,276 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:05:54,276 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:06:35,918 INFO [default] Current average fps: 24.3089
+2023-11-21 14:07:18,078 INFO [default] Current average fps: 24.037
+2023-11-21 14:08:00,421 INFO [default] Current average fps: 23.9232
+2023-11-21 14:08:42,522 INFO [default] Current average fps: 23.892
+2023-11-21 14:09:24,787 INFO [default] Current average fps: 23.8519
+2023-11-21 14:10:06,793 INFO [default] Current average fps: 23.849
+2023-11-21 14:10:49,216 INFO [default] Current average fps: 23.8209
+2023-11-21 14:11:33,343 INFO [default] Current average fps: 23.695
+2023-11-21 14:12:19,598 INFO [default] Current average fps: 23.4765
+2023-11-21 14:13:03,373 INFO [default] Current average fps: 23.4167
+2023-11-21 14:13:47,658 INFO [default] Current average fps: 23.3447
+2023-11-21 14:14:32,259 INFO [default] Current average fps: 23.2726
+2023-11-21 14:15:17,078 INFO [default] Current average fps: 23.2045
+2023-11-21 14:16:03,659 INFO [default] Current average fps: 23.0878
+2023-11-21 14:16:47,763 INFO [default] Current average fps: 23.0654
+2023-11-21 14:17:32,035 INFO [default] Current average fps: 23.0406
+2023-11-21 14:18:15,634 INFO [default] Current average fps: 23.0369
+2023-11-21 14:19:00,522 INFO [default] Current average fps: 23.0049
+2023-11-21 14:19:45,584 INFO [default] Current average fps: 22.9698
+2023-11-21 14:20:09,657 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:20:09,657 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:20:09,657 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:20:09,699 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:20:09,699 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:20:28,538 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:20:28,538 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:20:28,538 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:20:28,578 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:20:28,579 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:20:30,360 INFO [default] Current average fps: 611.517
+2023-11-21 14:20:32,142 INFO [default] Current average fps: 613.846
+2023-11-21 14:20:33,792 INFO [default] Current average fps: 621.384
+2023-11-21 14:20:58,122 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:20:58,122 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:20:58,122 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:20:58,179 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:20:58,179 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:20:59,938 INFO [default] Current average fps: 617.427
+2023-11-21 14:23:50,924 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:23:50,924 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:23:50,924 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:23:50,938 ERROR [default] Shader compilation failed (Compute) 0:89(15): error: no function with name 'rayMarch'
+0:91(63): warning: `color' used uninitialized
+
+
+2023-11-21 14:24:08,125 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:24:08,125 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:24:08,125 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:24:08,167 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:24:08,167 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:24:47,831 INFO [default] Current average fps: 25.4451
+2023-11-21 14:25:12,943 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:25:12,944 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:25:12,944 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:25:12,992 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:25:12,992 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:25:54,712 INFO [default] Current average fps: 24.3801
+2023-11-21 14:26:09,512 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:26:09,513 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:26:09,513 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:26:09,557 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:26:09,558 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:26:39,909 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:26:39,910 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:26:39,910 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:26:39,934 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:26:39,934 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:27:26,542 INFO [default] Current average fps: 21.7037
+2023-11-21 14:28:12,882 INFO [default] Current average fps: 21.6569
+2023-11-21 14:28:26,930 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:28:26,930 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:28:26,930 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:28:26,973 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:28:26,973 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:29:13,465 INFO [default] Current average fps: 21.7859
+2023-11-21 14:30:00,059 INFO [default] Current average fps: 21.6396
+2023-11-21 14:30:13,667 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:30:13,667 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:30:13,667 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:30:13,717 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:30:13,717 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:30:39,635 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:30:39,636 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:30:39,636 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:30:39,680 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:30:39,680 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:31:05,320 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:31:05,321 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:31:05,321 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:31:05,366 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:31:05,366 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:31:46,915 INFO [default] Current average fps: 24.3917
+2023-11-21 14:32:28,776 INFO [default] Current average fps: 24.1648
+2023-11-21 14:33:11,870 INFO [default] Current average fps: 23.8787
+2023-11-21 14:33:55,408 INFO [default] Current average fps: 23.6673
+2023-11-21 14:34:39,000 INFO [default] Current average fps: 23.5395
+2023-11-21 14:34:56,789 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:34:56,789 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:34:56,789 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:34:56,833 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:34:56,834 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:41:05,398 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:41:05,398 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:41:05,398 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:41:05,418 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:41:05,418 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:41:26,122 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:41:26,123 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:41:26,123 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:41:26,163 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:41:26,164 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 14:42:14,005 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 14:42:14,005 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 14:42:14,005 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 14:42:14,052 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 14:42:14,052 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:14:02,284 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:14:02,284 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:14:02,284 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:14:02,329 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:14:02,330 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:14:39,398 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:14:39,398 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:14:39,398 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:14:39,442 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:14:39,442 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:15:35,592 INFO [default] Current average fps: 18.3278
+2023-11-21 16:16:02,992 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:16:02,992 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:16:02,992 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:16:03,012 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:16:03,012 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:16:16,115 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:16:16,115 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:16:16,115 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:16:16,157 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:16:16,157 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:16:39,617 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-21 16:16:39,618 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-21 16:16:39,618 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-21 16:16:39,662 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-21 16:16:39,662 INFO [default] Maximum local work group invocations - 1024
+2023-11-21 16:17:06,715 INFO [default] Current average fps: 37.8414

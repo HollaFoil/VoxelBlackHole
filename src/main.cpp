@@ -111,7 +111,7 @@ int main()
 
         glUseProgram(shaderProgram.PID);
         glUniform1f(timeUniformLocation, timeUniform);
-        glDispatchCompute(SCR_WIDTH/32, SCR_HEIGHT/32, 1);
+        glDispatchCompute(SCR_WIDTH/16, SCR_HEIGHT/16, 1);
         glMemoryBarrier(GL_SHADER_IMAGE_ACCESS_BARRIER_BIT);
 
         processInput(window);
