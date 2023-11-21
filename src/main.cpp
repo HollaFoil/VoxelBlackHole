@@ -5,6 +5,8 @@
 
 #include <iostream>
 #include <format>
+#include <math.h>
+#include <iomanip>
 
 INITIALIZE_EASYLOGGINGPP
 
@@ -95,16 +97,20 @@ int main()
 
     double avgSum = 0;
     float timeUniform = 0;
+    float timeCeil = 0;
     int timeUniformLocation = glGetUniformLocation(shaderProgram.PID, "time");
 
     while (!glfwWindowShouldClose(window))
     {
+        frameCount++;
         double currentTime = glfwGetTime();
         double deltaTime = currentTime - lastTime;
         lastTime = currentTime;
         avgSum += 1/deltaTime;
-        if (++frameCount % 1000 == 0) {
-            LOG(INFO) << "Current average fps: " << avgSum/(double)frameCount;
+        if (timeCeil < timeUniform) {
+            timeCeil = ceil(timeUniform);
+            LOG(INFO) << "Current average fps: " << avgSum/(double)frameCount << " frames/s";
+            LOG(INFO) << "Previous frame time: " << setprecision(3) << fixed << deltaTime << "ms";
         }
 
         timeUniform += (float)deltaTime;
