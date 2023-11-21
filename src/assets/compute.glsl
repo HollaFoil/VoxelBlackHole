@@ -2,7 +2,7 @@
 precision highp float;
 
 
-layout(local_size_x = 16, local_size_y = 16) in;
+layout(local_size_x = 32, local_size_y = 32) in;
 layout(rgba32f, binding = 0) uniform image2D img_output;
 
 #define SMOOTH 0
@@ -13,9 +13,9 @@ const float width = 1536.0f;
 const float height = 864.0f;
 const vec2 scr_size = vec2(width, height);
 const vec3 centerOfSphere = vec3(0.5f);
-const float grid_size = 1.0f;
+const float grid_size = 0.5f;
 
-float sphere_size = 1.0f*4.0f + 8.0f;
+float sphere_size = sin(time/2)*4.0f + 8.4f;
 
 vec3 castRay(vec3 origin, vec3 direction) {
     const float sign_x = direction.x > 0 ? 1 : -1;
@@ -24,7 +24,7 @@ vec3 castRay(vec3 origin, vec3 direction) {
     const float offset_x = direction.x > 0 ? 0 : 1;
     const float offset_y = direction.y > 0 ? 0 : 1;
     const float offset_z = direction.z > 0 ? 0 : 1;
-    const int max_steps = 100;
+    const int max_steps = 200;
 
     vec3 pos = origin;
     vec3 tile_coords = floor(pos/grid_size); // Maybe needs to be * instead, idk
@@ -75,7 +75,7 @@ mat3 calcLookAtMatrix(vec3 origin, vec3 target, float roll) {
 
 void main()
 {
-    vec3 origin = vec3 (sin(time/3)*40.0f, sin(time/3)*20.0f, cos(time/3)*40.0f);
+    vec3 origin = vec3 (sin(time/3)*40.0f, sin(time/3)*10.0f, cos(time/3)*40.0f);
 
     vec2 pixel_coord = vec2(gl_GlobalInvocationID.xy);
     pixel_coord = pixel_coord*2.0f - scr_size;
