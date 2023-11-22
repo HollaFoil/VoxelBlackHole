@@ -11707,3 +11707,274 @@
 2023-11-22 01:35:53,918 INFO [default] Previous frame time: 0.030ms
 2023-11-22 01:35:54,936 INFO [default] Current average fps: 34.886 frames/s
 2023-11-22 01:35:54,936 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:31,075 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-22 01:36:31,075 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-22 01:36:31,075 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-22 01:36:31,096 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-22 01:36:31,096 INFO [default] Maximum local work group invocations - 1024
+2023-11-22 01:36:33,705 INFO [default] Current average fps: 100.012 frames/s
+2023-11-22 01:36:33,706 INFO [default] Previous frame time: 0.005ms
+2023-11-22 01:36:33,923 INFO [default] Current average fps: 47.805 frames/s
+2023-11-22 01:36:33,923 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:36:34,921 INFO [default] Current average fps: 37.698 frames/s
+2023-11-22 01:36:34,921 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:36:35,932 INFO [default] Current average fps: 36.765 frames/s
+2023-11-22 01:36:35,932 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:36:36,930 INFO [default] Current average fps: 36.264 frames/s
+2023-11-22 01:36:36,930 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:36:37,914 INFO [default] Current average fps: 35.876 frames/s
+2023-11-22 01:36:37,914 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:36:38,935 INFO [default] Current average fps: 35.761 frames/s
+2023-11-22 01:36:38,936 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:36:39,932 INFO [default] Current average fps: 35.661 frames/s
+2023-11-22 01:36:39,932 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:36:40,917 INFO [default] Current average fps: 35.510 frames/s
+2023-11-22 01:36:40,917 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:36:41,932 INFO [default] Current average fps: 35.391 frames/s
+2023-11-22 01:36:41,932 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:36:42,908 INFO [default] Current average fps: 35.331 frames/s
+2023-11-22 01:36:42,909 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:36:43,921 INFO [default] Current average fps: 35.170 frames/s
+2023-11-22 01:36:43,921 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:44,927 INFO [default] Current average fps: 34.972 frames/s
+2023-11-22 01:36:44,927 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:45,914 INFO [default] Current average fps: 34.778 frames/s
+2023-11-22 01:36:45,914 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:46,936 INFO [default] Current average fps: 34.598 frames/s
+2023-11-22 01:36:46,937 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:47,918 INFO [default] Current average fps: 34.408 frames/s
+2023-11-22 01:36:47,918 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:48,913 INFO [default] Current average fps: 34.212 frames/s
+2023-11-22 01:36:48,913 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:49,925 INFO [default] Current average fps: 34.063 frames/s
+2023-11-22 01:36:49,925 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:50,933 INFO [default] Current average fps: 33.935 frames/s
+2023-11-22 01:36:50,934 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:51,928 INFO [default] Current average fps: 33.796 frames/s
+2023-11-22 01:36:51,928 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:52,940 INFO [default] Current average fps: 33.644 frames/s
+2023-11-22 01:36:52,940 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:36:53,923 INFO [default] Current average fps: 33.506 frames/s
+2023-11-22 01:36:53,923 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:54,929 INFO [default] Current average fps: 33.388 frames/s
+2023-11-22 01:36:54,929 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:55,928 INFO [default] Current average fps: 33.252 frames/s
+2023-11-22 01:36:55,928 INFO [default] Previous frame time: 0.034ms
+2023-11-22 01:36:56,913 INFO [default] Current average fps: 33.143 frames/s
+2023-11-22 01:36:56,913 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:57,942 INFO [default] Current average fps: 33.062 frames/s
+2023-11-22 01:36:57,942 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:36:58,923 INFO [default] Current average fps: 33.007 frames/s
+2023-11-22 01:36:58,923 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:36:59,937 INFO [default] Current average fps: 32.954 frames/s
+2023-11-22 01:36:59,937 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:00,936 INFO [default] Current average fps: 32.887 frames/s
+2023-11-22 01:37:00,937 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:01,939 INFO [default] Current average fps: 32.822 frames/s
+2023-11-22 01:37:01,939 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:02,930 INFO [default] Current average fps: 32.804 frames/s
+2023-11-22 01:37:02,930 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:03,913 INFO [default] Current average fps: 32.797 frames/s
+2023-11-22 01:37:03,913 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:37:04,909 INFO [default] Current average fps: 32.808 frames/s
+2023-11-22 01:37:04,910 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:37:05,930 INFO [default] Current average fps: 32.858 frames/s
+2023-11-22 01:37:05,930 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:06,910 INFO [default] Current average fps: 35.801 frames/s
+2023-11-22 01:37:06,911 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:07,914 INFO [default] Current average fps: 35.772 frames/s
+2023-11-22 01:37:07,914 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:08,919 INFO [default] Current average fps: 35.744 frames/s
+2023-11-22 01:37:08,919 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:09,923 INFO [default] Current average fps: 35.693 frames/s
+2023-11-22 01:37:09,923 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:10,917 INFO [default] Current average fps: 35.680 frames/s
+2023-11-22 01:37:10,917 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:11,913 INFO [default] Current average fps: 35.639 frames/s
+2023-11-22 01:37:11,913 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:37:12,925 INFO [default] Current average fps: 35.611 frames/s
+2023-11-22 01:37:12,925 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:13,922 INFO [default] Current average fps: 35.598 frames/s
+2023-11-22 01:37:13,922 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:14,925 INFO [default] Current average fps: 35.581 frames/s
+2023-11-22 01:37:14,925 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:15,940 INFO [default] Current average fps: 35.530 frames/s
+2023-11-22 01:37:15,940 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:37:16,928 INFO [default] Current average fps: 35.461 frames/s
+2023-11-22 01:37:16,928 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:17,923 INFO [default] Current average fps: 35.388 frames/s
+2023-11-22 01:37:17,924 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:18,933 INFO [default] Current average fps: 35.310 frames/s
+2023-11-22 01:37:18,933 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:19,928 INFO [default] Current average fps: 35.226 frames/s
+2023-11-22 01:37:19,928 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:20,920 INFO [default] Current average fps: 35.147 frames/s
+2023-11-22 01:37:20,920 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:21,933 INFO [default] Current average fps: 35.076 frames/s
+2023-11-22 01:37:21,933 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:22,916 INFO [default] Current average fps: 35.008 frames/s
+2023-11-22 01:37:22,916 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:23,922 INFO [default] Current average fps: 34.930 frames/s
+2023-11-22 01:37:23,922 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:37:24,940 INFO [default] Current average fps: 34.848 frames/s
+2023-11-22 01:37:24,940 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:37:25,928 INFO [default] Current average fps: 34.769 frames/s
+2023-11-22 01:37:25,928 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:37:26,926 INFO [default] Current average fps: 34.689 frames/s
+2023-11-22 01:37:26,926 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:37:27,919 INFO [default] Current average fps: 34.613 frames/s
+2023-11-22 01:37:27,919 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:37:28,927 INFO [default] Current average fps: 34.547 frames/s
+2023-11-22 01:37:28,927 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:29,913 INFO [default] Current average fps: 34.495 frames/s
+2023-11-22 01:37:29,913 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:30,926 INFO [default] Current average fps: 34.445 frames/s
+2023-11-22 01:37:30,926 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:31,921 INFO [default] Current average fps: 34.392 frames/s
+2023-11-22 01:37:31,921 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:32,940 INFO [default] Current average fps: 34.343 frames/s
+2023-11-22 01:37:32,940 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:33,934 INFO [default] Current average fps: 34.308 frames/s
+2023-11-22 01:37:33,934 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:34,920 INFO [default] Current average fps: 34.278 frames/s
+2023-11-22 01:37:34,920 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:35,928 INFO [default] Current average fps: 34.253 frames/s
+2023-11-22 01:37:35,928 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:37:36,922 INFO [default] Current average fps: 34.253 frames/s
+2023-11-22 01:37:36,922 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:37,911 INFO [default] Current average fps: 34.272 frames/s
+2023-11-22 01:37:37,911 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:38,936 INFO [default] Current average fps: 34.287 frames/s
+2023-11-22 01:37:38,936 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:39,921 INFO [default] Current average fps: 34.291 frames/s
+2023-11-22 01:37:39,921 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:40,930 INFO [default] Current average fps: 34.298 frames/s
+2023-11-22 01:37:40,931 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:41,923 INFO [default] Current average fps: 34.313 frames/s
+2023-11-22 01:37:41,923 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:37:42,929 INFO [default] Current average fps: 34.321 frames/s
+2023-11-22 01:37:42,929 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:43,925 INFO [default] Current average fps: 34.318 frames/s
+2023-11-22 01:37:43,925 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:44,913 INFO [default] Current average fps: 34.320 frames/s
+2023-11-22 01:37:44,913 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:45,916 INFO [default] Current average fps: 34.329 frames/s
+2023-11-22 01:37:45,916 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:37:46,934 INFO [default] Current average fps: 34.330 frames/s
+2023-11-22 01:37:46,935 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:37:47,938 INFO [default] Current average fps: 34.310 frames/s
+2023-11-22 01:37:47,938 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:48,926 INFO [default] Current average fps: 34.286 frames/s
+2023-11-22 01:37:48,926 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:49,913 INFO [default] Current average fps: 34.262 frames/s
+2023-11-22 01:37:49,913 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:50,919 INFO [default] Current average fps: 34.231 frames/s
+2023-11-22 01:37:50,920 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:51,941 INFO [default] Current average fps: 34.195 frames/s
+2023-11-22 01:37:51,941 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:52,924 INFO [default] Current average fps: 34.164 frames/s
+2023-11-22 01:37:52,924 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:37:53,934 INFO [default] Current average fps: 34.134 frames/s
+2023-11-22 01:37:53,934 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:37:54,935 INFO [default] Current average fps: 34.097 frames/s
+2023-11-22 01:37:54,936 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:05,219 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-22 01:38:05,220 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-22 01:38:05,220 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-22 01:38:05,269 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-22 01:38:05,269 INFO [default] Maximum local work group invocations - 1024
+2023-11-22 01:38:07,893 INFO [default] Current average fps: 98.1851 frames/s
+2023-11-22 01:38:07,893 INFO [default] Previous frame time: 0.005ms
+2023-11-22 01:38:08,078 INFO [default] Current average fps: 49.237 frames/s
+2023-11-22 01:38:08,078 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:38:09,072 INFO [default] Current average fps: 37.841 frames/s
+2023-11-22 01:38:09,072 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:10,094 INFO [default] Current average fps: 36.416 frames/s
+2023-11-22 01:38:10,094 INFO [default] Previous frame time: 0.043ms
+2023-11-22 01:38:18,944 INFO [default] Parsing shader file: ./assets/vertex.glsl
+2023-11-22 01:38:18,944 INFO [default] Parsing shader file: ./assets/fragment.glsl
+2023-11-22 01:38:18,944 INFO [default] Parsing shader file: ./assets/compute.glsl
+2023-11-22 01:38:18,986 INFO [default] Maximum global (total) work group counts - x: 2147483646 y: 2147483646 z: 2147483646
+2023-11-22 01:38:18,986 INFO [default] Maximum local work group invocations - 1024
+2023-11-22 01:38:21,591 INFO [default] Current average fps: 94.4398 frames/s
+2023-11-22 01:38:21,591 INFO [default] Previous frame time: 0.005ms
+2023-11-22 01:38:21,799 INFO [default] Current average fps: 47.328 frames/s
+2023-11-22 01:38:21,799 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:38:22,782 INFO [default] Current average fps: 38.027 frames/s
+2023-11-22 01:38:22,782 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:23,806 INFO [default] Current average fps: 37.160 frames/s
+2023-11-22 01:38:23,806 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:24,787 INFO [default] Current average fps: 36.718 frames/s
+2023-11-22 01:38:24,787 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:25,796 INFO [default] Current average fps: 36.473 frames/s
+2023-11-22 01:38:25,796 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:26,796 INFO [default] Current average fps: 36.377 frames/s
+2023-11-22 01:38:26,797 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:27,779 INFO [default] Current average fps: 36.258 frames/s
+2023-11-22 01:38:27,779 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:28,805 INFO [default] Current average fps: 36.096 frames/s
+2023-11-22 01:38:28,805 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:38:29,804 INFO [default] Current average fps: 35.972 frames/s
+2023-11-22 01:38:29,804 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:30,797 INFO [default] Current average fps: 35.894 frames/s
+2023-11-22 01:38:30,797 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:31,781 INFO [default] Current average fps: 35.768 frames/s
+2023-11-22 01:38:31,781 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:38:32,799 INFO [default] Current average fps: 35.566 frames/s
+2023-11-22 01:38:32,799 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:38:33,802 INFO [default] Current average fps: 35.362 frames/s
+2023-11-22 01:38:33,802 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:38:34,808 INFO [default] Current average fps: 35.180 frames/s
+2023-11-22 01:38:34,808 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:35,806 INFO [default] Current average fps: 34.979 frames/s
+2023-11-22 01:38:35,806 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:36,787 INFO [default] Current average fps: 34.780 frames/s
+2023-11-22 01:38:36,787 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:37,784 INFO [default] Current average fps: 34.626 frames/s
+2023-11-22 01:38:37,784 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:38,809 INFO [default] Current average fps: 34.491 frames/s
+2023-11-22 01:38:38,809 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:39,788 INFO [default] Current average fps: 34.350 frames/s
+2023-11-22 01:38:39,788 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:40,788 INFO [default] Current average fps: 34.191 frames/s
+2023-11-22 01:38:40,788 INFO [default] Previous frame time: 0.033ms
+2023-11-22 01:38:41,790 INFO [default] Current average fps: 34.044 frames/s
+2023-11-22 01:38:41,790 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:42,814 INFO [default] Current average fps: 33.919 frames/s
+2023-11-22 01:38:42,814 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:43,813 INFO [default] Current average fps: 33.799 frames/s
+2023-11-22 01:38:43,813 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:44,813 INFO [default] Current average fps: 33.688 frames/s
+2023-11-22 01:38:44,813 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:45,795 INFO [default] Current average fps: 33.607 frames/s
+2023-11-22 01:38:45,795 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:46,792 INFO [default] Current average fps: 33.549 frames/s
+2023-11-22 01:38:46,792 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:47,793 INFO [default] Current average fps: 33.492 frames/s
+2023-11-22 01:38:47,793 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:48,810 INFO [default] Current average fps: 33.420 frames/s
+2023-11-22 01:38:48,810 INFO [default] Previous frame time: 0.032ms
+2023-11-22 01:38:49,782 INFO [default] Current average fps: 33.370 frames/s
+2023-11-22 01:38:49,782 INFO [default] Previous frame time: 0.031ms
+2023-11-22 01:38:50,788 INFO [default] Current average fps: 33.350 frames/s
+2023-11-22 01:38:50,788 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:38:51,790 INFO [default] Current average fps: 33.337 frames/s
+2023-11-22 01:38:51,790 INFO [default] Previous frame time: 0.030ms
+2023-11-22 01:38:52,805 INFO [default] Current average fps: 33.342 frames/s
+2023-11-22 01:38:52,805 INFO [default] Previous frame time: 0.029ms
+2023-11-22 01:38:53,784 INFO [default] Current average fps: 33.386 frames/s
+2023-11-22 01:38:53,784 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:54,783 INFO [default] Current average fps: 33.393 frames/s
+2023-11-22 01:38:54,783 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:55,796 INFO [default] Current average fps: 33.461 frames/s
+2023-11-22 01:38:55,797 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:56,784 INFO [default] Current average fps: 33.520 frames/s
+2023-11-22 01:38:56,785 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:57,790 INFO [default] Current average fps: 33.588 frames/s
+2023-11-22 01:38:57,790 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:38:58,833 INFO [default] Current average fps: 33.541 frames/s
+2023-11-22 01:38:58,833 INFO [default] Previous frame time: 0.043ms
+2023-11-22 01:38:59,783 INFO [default] Current average fps: 33.574 frames/s
+2023-11-22 01:38:59,783 INFO [default] Previous frame time: 0.028ms
+2023-11-22 01:39:00,805 INFO [default] Current average fps: 33.619 frames/s
+2023-11-22 01:39:00,805 INFO [default] Previous frame time: 0.028ms

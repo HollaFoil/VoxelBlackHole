@@ -59,7 +59,7 @@ vec4 castRay(vec3 origin, vec3 direction) {
     }
     vec4 color;
     if (step == max_steps) color = texture(cubeMap, -normalize(direction));
-    else if (lastdir == 0) color = vec4(1,0,0,1) / (17.0f - abs(pos.x));
+    else if (lastdir == 0) color = vec4(1,0,0,1) / (sphere_size + 5.0f - abs(pos.x));
     else if (lastdir == 1) color = vec4(0,1,0,1) * 0;
     else color = vec4(0,0,1,1) * 0;
     return color;
