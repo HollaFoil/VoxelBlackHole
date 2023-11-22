@@ -8,6 +8,9 @@
 #include <math.h>
 #include <iomanip>
 
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+
 INITIALIZE_EASYLOGGINGPP
 
 void framebuffer_size_callback([[maybe_unused]] GLFWwindow* window, int width, int height);
@@ -16,6 +19,39 @@ const unsigned int SCR_WIDTH = 1536;
 const unsigned int SCR_HEIGHT = 864;
 double lastTime = 0.0f;
 int frameCount = 0;
+
+unsigned int loadCubeMap(vector<std::string> faces)
+{
+    unsigned int textureID;
+    glGenTextures(1, &textureID);
+    glBindTexture(GL_TEXTURE_CUBE_MAP, textureID);
+
+    int width, height, nrChannels;
+    for (unsigned int i = 0; i < faces.size(); i++)
+    {
+        unsigned char *data = stbi_load(faces[i].c_str(), &width, &height, &nrChannels, 0);
+        if (data)
+        {
+            glTexImage2D(GL_TEXTURE_CUBE_MAP_POSITIVE_X + i,
+                         0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data
+            );
+            stbi_image_free(data);
+        }
+        else
+        {
+            std::cout << "CubeMap tex failed to load at path: " << faces[i] << std::endl;
+            stbi_image_free(data);
+        }
+    }
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
+
+    return textureID;
+}
+
 
 
 int main()
@@ -100,6 +136,17 @@ int main()
     float timeCeil = 0;
     int timeUniformLocation = glGetUniformLocation(shaderProgram.PID, "time");
 
+    vector<std::string> faces
+    {
+            "./assets/AVP_PositiveX.png",
+            "./assets/AVP_NegativeX.png",
+            "./assets/AVP_PositiveY.png",
+            "./assets/AVP_NegativeY.png",
+            "./assets/AVP_PositiveZ.png",
+            "./assets/AVP_NegativeZ.png",
+    };
+    unsigned int cubeMapTexture = loadCubeMap(faces);
+
     while (!glfwWindowShouldClose(window))
     {
         frameCount++;
@@ -117,6 +164,7 @@ int main()
 
         glUseProgram(shaderProgram.PID);
         glUniform1f(timeUniformLocation, timeUniform);
+        glBindTexture(GL_TEXTURE_CUBE_MAP, cubeMapTexture);
         glDispatchCompute(SCR_WIDTH/32, SCR_HEIGHT/32, 1);
         glMemoryBarrier(GL_SHADER_IMAGE_ACCESS_BARRIER_BIT);
 

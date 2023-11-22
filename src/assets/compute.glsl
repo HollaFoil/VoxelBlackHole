@@ -8,6 +8,7 @@ layout(rgba32f, binding = 0) uniform image2D img_output;
 #define SMOOTH 0
 
 uniform float time;
+uniform samplerCube cubeMap;
 
 const float width = 1536.0f;
 const float height = 864.0f;
@@ -57,7 +58,7 @@ vec3 castRay(vec3 origin, vec3 direction) {
         dist = distance(tile_coords*grid_size, centerOfSphere);
     }
     vec3 color;
-    if (step == max_steps) color = vec3(0,0,0);
+    if (step == max_steps) color = texture(cubeMap, -normalize(direction)).xyz;
     else if (lastdir == 0) color = vec3(255,0,0);
     else if (lastdir == 1) color = vec3(0,255,0);
     else color = vec3(0,0,255);
@@ -89,7 +90,7 @@ void main()
 
     vec2 pixel_coord = vec2(gl_GlobalInvocationID.xy);
     pixel_coord = pixel_coord*2.0f - scr_size;
-    vec3 direction = normalize(vec3(pixel_coord, width));
+    vec3 direction = normalize(vec3(pixel_coord, width*1.4));
 
     mat4 lookAt = LookAt(origin, vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
     vec4 dir  = lookAt*vec4(direction, 1.0f);
