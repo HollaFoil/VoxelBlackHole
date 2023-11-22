@@ -18,7 +18,7 @@ const float grid_size = 0.5f;
 
 float sphere_size = sin(time/5.0f)*4.0f + 8.4f;
 
-vec3 castRay(vec3 origin, vec3 direction) {
+vec4 castRay(vec3 origin, vec3 direction) {
     const float sign_x = direction.x > 0 ? 1 : -1;
     const float sign_y = direction.y > 0 ? 1 : -1;
     const float sign_z = direction.z > 0 ? 1 : -1;
@@ -57,11 +57,11 @@ vec3 castRay(vec3 origin, vec3 direction) {
 
         dist = distance(tile_coords*grid_size, centerOfSphere);
     }
-    vec3 color;
-    if (step == max_steps) color = texture(cubeMap, -normalize(direction)).xyz;
-    else if (lastdir == 0) color = vec3(255,0,0);
-    else if (lastdir == 1) color = vec3(0,255,0);
-    else color = vec3(0,0,255);
+    vec4 color;
+    if (step == max_steps) color = texture(cubeMap, -normalize(direction));
+    else if (lastdir == 0) color = vec4(1,0,0,1) / (17.0f - abs(pos.x));
+    else if (lastdir == 1) color = vec4(0,1,0,1) * 0;
+    else color = vec4(0,0,1,1) * 0;
     return color;
 }
 
@@ -98,7 +98,7 @@ void main()
     direction = dir.xyz;
     direction += 0.00001f;
 
-    vec3 color = castRay(origin, normalize(direction));
-    imageStore(img_output, ivec2(gl_GlobalInvocationID.xy), vec4(color, 1.0));
+    vec4 color = castRay(origin, normalize(direction));
+    imageStore(img_output, ivec2(gl_GlobalInvocationID.xy), color);
 }
 
