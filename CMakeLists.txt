@@ -8,6 +8,9 @@ add_executable(BlackHole src/main.cpp
         src/shader/shader.h
         src/glad/glad.c
         src/log/easylogging++.cc
+        src/Program/Program.h
+        src/Transformations/Transformations.h
+        src/Includes.h
 )
 
 target_link_libraries(BlackHole glfw)

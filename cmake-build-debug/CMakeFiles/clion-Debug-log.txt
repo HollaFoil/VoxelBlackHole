@@ -1,4 +1,4 @@
-/home/nedas/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/nedas/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/nedas/CLionProjects/BlackHole -B /home/nedas/CLionProjects/BlackHole/cmake-build-debug
+/home/dominykas/Desktop/clan/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/dominykas/CLionProjects/VoxelBlackHole -B /home/dominykas/CLionProjects/VoxelBlackHole/cmake-build-debug
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/nedas/CLionProjects/BlackHole/cmake-build-debug
+-- Build files have been written to: /home/dominykas/CLionProjects/VoxelBlackHole/cmake-build-debug

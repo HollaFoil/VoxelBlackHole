@@ -19,7 +19,7 @@ public:
     unsigned int ID, PID;
     Shader(const char* inputVertex, const char* inputFragment);
     Shader(const char* inputVertex, const char* inputFragment, const char* inputCompute);
-
+    Shader() = default;
     static char* Parse(const string& input);
     static void BuildShaders(unsigned int &shader, const char* source, uint32_t shader_type);
     static void Link(unsigned int&program);
