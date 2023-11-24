@@ -1,7 +1,7 @@
 #include "glad/glad.h"
 #include "shader/shader.h"
 #include "log/easylogging++.h"
-#include <GLFW/glfw3.h>
+#include "GLFW/glfw3.h"
 
 #include <iostream>
 #include <format>
@@ -20,7 +20,7 @@ const unsigned int SCR_HEIGHT = 864;
 double lastTime = 0.0f;
 int frameCount = 0;
 
-unsigned int loadCubeMap(vector<std::string> faces)
+unsigned int loadCubeMap(std::vector<std::string> faces)
 {
     unsigned int textureID;
     glGenTextures(1, &textureID);
@@ -57,8 +57,8 @@ unsigned int loadCubeMap(vector<std::string> faces)
 int main()
 {
     glfwInit();
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", nullptr, nullptr);
     if (window == nullptr)
@@ -136,7 +136,7 @@ int main()
     float timeCeil = 0;
     int timeUniformLocation = glGetUniformLocation(shaderProgram.PID, "time");
 
-    vector<std::string> faces
+    std::vector<std::string> faces
     {
             "./assets/AVP_PositiveX.png",
             "./assets/AVP_NegativeX.png",
@@ -157,7 +157,7 @@ int main()
         if (timeCeil < timeUniform) {
             timeCeil = ceil(timeUniform);
             LOG(INFO) << "Current average fps: " << avgSum/(double)frameCount << " frames/s";
-            LOG(INFO) << "Previous frame time: " << setprecision(3) << fixed << deltaTime << "ms";
+            LOG(INFO) << "Previous frame time: " << std::setprecision(3) << std::fixed << deltaTime << "ms";
         }
 
         timeUniform += (float)deltaTime;

@@ -53,16 +53,16 @@ Shader::Shader(const char *inputVertex, const char *inputFragment, const char* i
     glDeleteShader(compute);
 }
 //converts input string to char array
-char* Shader::Parse(const string& input){
+char* Shader::Parse(const std::string& input){
     LOG(INFO) << "Parsing shader file: " << input;
-    ifstream in(input);
+    std::ifstream in(input);
     if(!in.is_open()) {
         LOG(ERROR) << "File not found.";
         throw;
     }
     std::stringstream buffer;
     buffer << in.rdbuf();
-    string s = buffer.str();
+    std::string s = buffer.str();
     char* out = (char*)malloc(sizeof(char)*(s.length()+1));
     for(int i = 0; i < s.length(); i ++){
         out[i] = s[i];
@@ -80,7 +80,7 @@ void Shader::BuildShaders(unsigned int &shader, const char* source, uint32_t sha
     glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
     if(!success){
         glGetShaderInfoLog(shader, 512, nullptr, err);
-        string shaderType = shader_type == GL_VERTEX_SHADER ? " (Vertex) " :
+        std::string shaderType = shader_type == GL_VERTEX_SHADER ? " (Vertex) " :
                         shader_type == GL_FRAGMENT_SHADER ? " (Fragment) " :
                         shader_type == GL_COMPUTE_SHADER ? " (Compute) " : " (Unknown shader type) ";
         LOG(ERROR) << "Shader compilation failed" << shaderType << err << "\n";

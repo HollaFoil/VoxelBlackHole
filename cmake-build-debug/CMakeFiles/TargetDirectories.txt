@@ -1,4 +1,4 @@
-/home/nedas/CLionProjects/BlackHole/cmake-build-debug/CMakeFiles/BlackHole.dir
-/home/nedas/CLionProjects/BlackHole/cmake-build-debug/CMakeFiles/copy_assets.dir
-/home/nedas/CLionProjects/BlackHole/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/nedas/CLionProjects/BlackHole/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/domin/CLionProjects/VoxelBlackHoleS/cmake-build-debug/CMakeFiles/BlackHole.dir
+C:/Users/domin/CLionProjects/VoxelBlackHoleS/cmake-build-debug/CMakeFiles/copy_assets.dir
+C:/Users/domin/CLionProjects/VoxelBlackHoleS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/domin/CLionProjects/VoxelBlackHoleS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
