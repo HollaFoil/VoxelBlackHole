@@ -165,7 +165,7 @@ int main()
         glUseProgram(shaderProgram.PID);
         glUniform1f(timeUniformLocation, timeUniform);
         glBindTexture(GL_TEXTURE_CUBE_MAP, cubeMapTexture);
-        glDispatchCompute(SCR_WIDTH/512, SCR_HEIGHT/1, 1);
+        glDispatchCompute(SCR_WIDTH/512, SCR_HEIGHT/2, 1);
         glMemoryBarrier(GL_SHADER_IMAGE_ACCESS_BARRIER_BIT);
 
         processInput(window);

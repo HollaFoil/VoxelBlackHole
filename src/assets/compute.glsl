@@ -2,7 +2,7 @@
 precision highp float;
 
 
-layout(local_size_x = 512, local_size_y = 1) in;
+layout(local_size_x = 512, local_size_y = 2) in;
 layout(rgba32f, binding = 0) uniform image2D img_output;
 
 #define SMOOTH 0

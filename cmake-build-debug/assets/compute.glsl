@@ -2,7 +2,7 @@
 precision highp float;
 
 
-layout(local_size_x = 512, local_size_y = 1) in;
+layout(local_size_x = 512, local_size_y = 2) in;
 layout(rgba32f, binding = 0) uniform image2D img_output;
 
 #define SMOOTH 0
@@ -16,7 +16,7 @@ const vec2 scr_size = vec2(width, height);
 const vec3 centerOfSphere = vec3(0.5f);
 const float grid_size = 0.10f;
 
-float sphere_size = 300.0f - sin(time/3)*200;
+float sphere_size = 300.0f;
 
 float distSquared( vec3 A, vec3 B )
 {
