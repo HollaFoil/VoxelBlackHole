@@ -4,29 +4,64 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
+#include <format>
+#include <math.h>
+#include <iomanip>
+
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
 
 INITIALIZE_EASYLOGGINGPP
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+void framebuffer_size_callback([[maybe_unused]] GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
+const unsigned int SCR_WIDTH = 1536;
+const unsigned int SCR_HEIGHT = 864;
+double lastTime = 0.0f;
+int frameCount = 0;
 
-// settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+unsigned int loadCubeMap(vector<std::string> faces)
+{
+    unsigned int textureID;
+    glGenTextures(1, &textureID);
+    glBindTexture(GL_TEXTURE_CUBE_MAP, textureID);
+
+    int width, height, nrChannels;
+    for (unsigned int i = 0; i < faces.size(); i++)
+    {
+        unsigned char *data = stbi_load(faces[i].c_str(), &width, &height, &nrChannels, 0);
+        if (data)
+        {
+            glTexImage2D(GL_TEXTURE_CUBE_MAP_POSITIVE_X + i,
+                         0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data
+            );
+            stbi_image_free(data);
+        }
+        else
+        {
+            std::cout << "CubeMap tex failed to load at path: " << faces[i] << std::endl;
+            stbi_image_free(data);
+        }
+    }
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
+
+    return textureID;
+}
+
+
 
 int main()
 {
-    // glfw: initialize and configure
-    // ------------------------------
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-
-    // glfw window creation
-    // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
-    if (window == NULL)
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", nullptr, nullptr);
+    if (window == nullptr)
     {
         LOG(ERROR) << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
@@ -34,35 +69,31 @@ int main()
     }
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-
-    // glad: load all OpenGL function pointers
-    // ---------------------------------------
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         LOG(ERROR) << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
 
-    Shader shaderProgram("./assets/vertex.glsl", "./assets/fragment.glsl");
+    glfwSwapInterval(0);
 
-    // set up vertex data (and buffer(s)) and configure vertex attributes
-    // ------------------------------------------------------------------
+    Shader shaderProgram(  "./assets/vertex.glsl",
+                         "./assets/fragment.glsl",
+                         "./assets/compute.glsl");
     float vertices[] = {
-            1.0f,  1.0f, 0.0f,  // top right
-            1.0f, -1.0f, 0.0f,  // bottom right
-            -1.0f, -1.0f, 0.0f,  // bottom left
-            -1.0f,  1.0f, 0.0f   // top left
+            1.0f,  1.0f, 0.0f,
+            1.0f, -1.0f, 0.0f,
+            -1.0f, -1.0f, 0.0f,
+            -1.0f,  1.0f, 0.0f
     };
-    unsigned int indices[] = {  // note that we start from 0!
-            0, 1, 3,  // first Triangle
-            1, 2, 3   // second Triangle
+    unsigned int indices[] = {
+            0, 1, 3,
+            1, 2, 3
     };
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
-    glGenBuffers(1, &EBO);
-    // bind the Vertex Array Object first, then bind and set vertex buffer(s), and then configure vertex attributes(s).
-    glBindVertexArray(VAO);
+    glGenBuffers(1, &EBO);    glBindVertexArray(VAO);
 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
@@ -70,75 +101,102 @@ int main()
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-
-    // note that this is allowed, the call to glVertexAttribPointer registered VBO as the vertex attribute's bound vertex buffer object so afterwards we can safely unbind
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    // remember: do NOT unbind the EBO while a VAO is active as the bound element buffer object IS stored in the VAO; keep the EBO bound.
-    //glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-
-    // You can unbind the VAO afterwards so other VAO calls won't accidentally modify this VAO, but this rarely happens. Modifying other
-    // VAOs requires a call to glBindVertexArray anyways so we generally don't unbind VAOs (nor VBOs) when it's not directly necessary.
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)nullptr);
+    glEnableVertexAttribArray(0);    glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
+    unsigned int texture;
+    glGenTextures(1, &texture);
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, texture);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA32F, SCR_WIDTH, SCR_HEIGHT, 0, GL_RGBA, GL_FLOAT, nullptr);
+    glBindImageTexture(0, texture, 0, GL_FALSE, 0, GL_WRITE_ONLY, GL_RGBA32F);
 
-    // uncomment this call to draw in wireframe polygons.
-    //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    int work_grp_cnt[3];
 
-    // render loop
-    // -----------
+    glGetIntegeri_v(GL_MAX_COMPUTE_WORK_GROUP_COUNT, 0, &work_grp_cnt[0]);
+    glGetIntegeri_v(GL_MAX_COMPUTE_WORK_GROUP_COUNT, 1, &work_grp_cnt[1]);
+    glGetIntegeri_v(GL_MAX_COMPUTE_WORK_GROUP_COUNT, 2, &work_grp_cnt[2]);
+
+    LOG(INFO) << "Maximum global (total) work group counts - "
+              << "x: " << work_grp_cnt[0]
+              << " y: " << work_grp_cnt[1]
+              << " z: " << work_grp_cnt[2];
+
+    int work_grp_inv;
+    glGetIntegerv(GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS, &work_grp_inv);
+    LOG(INFO) << "Maximum local work group invocations - " << work_grp_inv;
+
+    double avgSum = 0;
+    float timeUniform = 0;
+    float timeCeil = 0;
+    int timeUniformLocation = glGetUniformLocation(shaderProgram.PID, "time");
+
+    vector<std::string> faces
+    {
+            "./assets/AVP_PositiveX.png",
+            "./assets/AVP_NegativeX.png",
+            "./assets/AVP_PositiveY.png",
+            "./assets/AVP_NegativeY.png",
+            "./assets/AVP_PositiveZ.png",
+            "./assets/AVP_NegativeZ.png",
+    };
+    unsigned int cubeMapTexture = loadCubeMap(faces);
+
     while (!glfwWindowShouldClose(window))
     {
-        // input
-        // -----
+        frameCount++;
+        double currentTime = glfwGetTime();
+        double deltaTime = currentTime - lastTime;
+        lastTime = currentTime;
+        avgSum += 1/deltaTime;
+        if (timeCeil < timeUniform) {
+            timeCeil = ceil(timeUniform);
+            LOG(INFO) << "Current average fps: " << avgSum/(double)frameCount << " frames/s";
+            LOG(INFO) << "Previous frame time: " << setprecision(3) << fixed << deltaTime << "ms";
+        }
+
+        timeUniform += (float)deltaTime;
+
+        glUseProgram(shaderProgram.PID);
+        glUniform1f(timeUniformLocation, timeUniform);
+        glBindTexture(GL_TEXTURE_CUBE_MAP, cubeMapTexture);
+        glDispatchCompute(SCR_WIDTH/512, SCR_HEIGHT/2, 1);
+        glMemoryBarrier(GL_SHADER_IMAGE_ACCESS_BARRIER_BIT);
+
         processInput(window);
 
-        // render
-        // ------
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+
+        glUseProgram(shaderProgram.ID);
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        // draw our first triangle
-        glUseProgram(shaderProgram.ID);
-        glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
-        //glDrawArrays(GL_TRIANGLES, 0, 6);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-        // glBindVertexArray(0); // no need to unbind it every time
+        glBindVertexArray(VAO);
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, texture);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
 
-        // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
-        // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
-
-    // optional: de-allocate all resources once they've outlived their purpose:
-    // ------------------------------------------------------------------------
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
     glDeleteBuffers(1, &EBO);
     glDeleteProgram(shaderProgram.ID);
-
-    // glfw: terminate, clearing all previously allocated GLFW resources.
-    // ------------------------------------------------------------------
     glfwTerminate();
     return 0;
 }
-
-// process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
-// ---------------------------------------------------------------------------------------------------------
 void processInput(GLFWwindow *window)
 {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 }
-
-// glfw: whenever the window size changed (by OS or user resize) this callback function executes
-// ---------------------------------------------------------------------------------------------
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
-    // make sure the viewport matches the new window dimensions; note that width and
-    // height will be significantly larger than specified on retina displays.
+    LOG(INFO) << "Resize event: width - " << width << ", height - " << height;
     glViewport(0, 0, width, height);
 }
